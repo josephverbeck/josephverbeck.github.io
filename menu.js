@@ -1,23 +1,24 @@
-var sse50 = function(){
-    return{
-	initMenu: function(){
-	    var m = document.getElementById('sses50');
-	    if(!m) return;
-	    m.style.width = m.getElementByTagName("ul")[0].offsetWidth + 1 + "px";
-	    var url = document.location.href.toLowerCase();
-	    var a = m.getElementsByTagName("a");
-	    var k = -1;
-	    var l = -1;
-	    var hasEnd = 0;
-	    for(var i =0; i < a.length; i++){
-		if(a[i].href && url.indexOf(a[i].href.toLowerCase()) != -1 && a[i].href.length > l){
-		    k = i;
-		    l = a[i].href.length;
-		}
-		if(a[i].className == "end") hasEnd = 1;
-	    }
-	    if(k == -1 && /:\/\/(?:www\.)?[^.\/]+?\.[^.\/]+\/?$/.test){
-		for (var i = 0; i < a.length; i++) {
+var sse50 = function () {
+    return {
+        initMenu: function () {
+            var m = document.getElementById('sses50');
+            if (!m) return;
+            m.style.width = m.getElementsByTagName("ul")[0].offsetWidth + 1 + "px";
+            var url = document.location.href.toLowerCase();
+            var a = m.getElementsByTagName("a");
+            var k = -1;
+            var l = -1;
+            var hasEnd = 0; 
+            for (var i = 0; i < a.length; i++) {
+                if (a[i].href && url.indexOf(a[i].href.toLowerCase()) != -1 && a[i].href.length > l) {
+                    k = i;
+                    l = a[i].href.length;
+                }
+                if (a[i].className == "end")
+                    hasEnd = 1;
+            }
+            if (k == -1 && /:\/\/(?:www\.)?[^.\/]+?\.[^.\/]+\/?$/.test) {
+                for (var i = 0; i < a.length; i++) {
                     if (a[i].getAttribute("maptopuredomain") == "true") {
                         k = i;
                         break;
