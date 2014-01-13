@@ -30,7 +30,7 @@
 {
     text-align: center;
     display: inline-block;
-    font: normal 28px Verdana;
+    font: normal 24px Verdana;
     background: url('mb50_2.gif') no-repeat left top;
     padding: 30px 60px;/*This defines the size of each menu item*/
     color: white;
