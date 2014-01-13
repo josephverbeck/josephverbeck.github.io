@@ -17,7 +17,7 @@
 {
     border-right: solid 1px #777;
     margin:0 auto;/*If you don't want the menu center aligned, remove this line and above text-align:center*/
-    font-size:35;
+    font-size:0;
 }
         
 #sses50 ul, #sses50 li
@@ -32,7 +32,7 @@
     display: inline-block;
     font: normal 11px Verdana;
     background: url('mb50_2.gif') no-repeat left top;
-    padding: 10px 20px;/*This defines the size of each menu item*/
+    padding: 30px 60px;/*This defines the size of each menu item*/
     color: white;
     text-decoration: none;
 }
