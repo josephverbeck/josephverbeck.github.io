@@ -9,23 +9,16 @@
 
   <body>
     <!--button onclick="sayHello('world')">Click Me</button-->
-      <div id="wrap">
-	<div id="header">
-	  <div id="container">
-	    :before
-	    <div class="row">
-	      :before
-	      <div class="span4">
-		<h1 class="title">
-		  <a href="/">Joseph Verbeck</a>
-		</h1>
-	      </div>
-	      :after
-	    </div>
-	    :after
-	  </div>
+      <div id="sse50">
+	<div id="sses50">
+	  <ul>
+	    <li><a href="?menu=50&skin=2&p=Joseph Verbeck">Joseph Verbeck</a></li>
+	    <li><a href="?menu=50&skin=2&p=Resume">Resume</a></li>
+	    <li><a href="?menu=50&skin=2&p=Projects">Projects</a></li>
+	    <li><a href="?menu=50&skin=2&p=Contact-Information">Contact Information</a></li>
+	  </ul>
 	</div>
-      </div>
+     </div>
   </body>
 
 </html>
