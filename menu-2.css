@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  background-image: url("/images/blurd.png");
+  background-image: url("");
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
