@@ -6,5 +6,5 @@ function sayHello(text){
 }
 
 function square(x){
-	return x * x;
+	alert(x * x);
 }
