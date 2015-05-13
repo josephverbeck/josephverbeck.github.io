@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
 	<title>joseph.verbeck.github.io</title>
-	<link href="http://example.org/feed/" rel="self" />
-	<link href="http://example.org/" />
+	<link href="http://josephverbeck.github.io/" rel="self" />
+	<link href="http://josephverbeck.github.io/" />
 	<id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
 	<updated>2003-12-13T18:30:02Z</updated>
  
