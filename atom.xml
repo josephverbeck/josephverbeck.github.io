@@ -4,15 +4,12 @@
  
 	<title>joseph.verbeck.github.io</title>
 	<link href="http://josephverbeck.github.io/" rel="self" />
-	<link href="http://josephverbeck.github.io/" />
 	<id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
-	<updated>2003-12-13T18:30:02Z</updated>
- 
  
 	<entry>
 		<title>Joseph Verbeck Home Page</title>
 		<link href="http://josephverbeck.github.io/" />
-		<link rel="alternate" type="text/html" href="http://josephverbeck.github.io/"/>
+		<!--link rel="alternate" type="text/html" href="http://josephverbeck.github.io/"/-->
 		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
 		<updated>2015-06-13T18:30:02Z</updated>
 		<summary>Some text.</summary>
