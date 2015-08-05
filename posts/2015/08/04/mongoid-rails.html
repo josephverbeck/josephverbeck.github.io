@@ -37,7 +37,7 @@
                 <p class="meta">04 Aug 2015</p>
 
                 <div class="posts">
-                    <p>This post is a guide in how to setup a rails project for mongoid instead of using the normal active records.  I will start by saying if this is a new project save yourself the time of tracking down all the active record imports and create the project with the given command ‘rails new app –skip-active-record’</p>
+                    <p>This post is a guide in how to setup a rails project for mongoid instead of using the normal active records and sqlite.  I will start by saying if this is a new project save yourself the time of tracking down all the active record imports and create the project with the given command ‘rails new app –skip-active-record’.  This command will create a new project without the ActiveRecord library.  The sqlite gem will still be included in the project but you can simply remove it by commenting it out in the Gemfile..  From here you just have to add the mongoid gem in the Gemfile and you are almost ready to go.  Once the project has been updated using the bundle update command, you can create the mongoid.yml file.  This file is the same as the database.yml file that rail normally creates for database configuration for sqlite.  Using the command ‘rails g mongoid:config’ and configuring the file to your database settings </p>
                     <p>Gems Used:
                     <ul>
                         <li>rails 4.2.0</li>
