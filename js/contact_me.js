@@ -20,7 +20,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://node-josephverbeck-api.herokuapp.com/create_user",
                 type: "POST",
                 data: {
                     name: name,
