@@ -2,7 +2,6 @@
 
 
 document.getElementById('submit').addEventListener('click', function() {
-    alert("I'm a box");
     console.log("0");
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
@@ -18,5 +17,4 @@ document.getElementById('submit').addEventListener('click', function() {
         function(data, status){
             alert("Data: " + data + "\nStatus: " + status);
         });
-    alert("still a box");
 });
