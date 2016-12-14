@@ -17,4 +17,5 @@ document.getElementById('submit').addEventListener('click', function() {
         function(data, status){
             alert("Data: " + data + "\nStatus: " + status);
         });
+    alert("Email was successfully sent!");
 });
